@@ -1,0 +1,60 @@
+.shortener {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(6, 18, 34);
+}
+.container {
+  margin-top: 10rem;
+  width: 40rem;
+}
+.container h1 {
+  color: aliceblue;
+  text-align: center;
+}
+.container p {
+  color: rgb(172, 186, 255);
+  text-align: center;
+}
+
+.formContainer {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.formContainer input,
+button {
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  outline: none;
+  font-size: 1rem;
+}
+.formContainer button {
+  background-color: rgb(35, 35, 189);
+  color: aliceblue;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.formContainer input {
+  width: 60%;
+}
+.url {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+.url p {
+  margin-right: 2rem;
+  color: aliceblue;
+}
+.url button {
+  background-color: crimson;
+  color: aliceblue;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.url button:hover {
+  transform: scale(1.05);
+}
